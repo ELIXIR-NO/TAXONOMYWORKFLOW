@@ -1,0 +1,2 @@
+kraken2 --use-names --threads $kraken2Threads --db $kraken2_refdata --gzip-compressed --output $kraken2OUT --report $kraken2_report --report-minimizer-data --paired $kraken2IN1 $kraken2IN2
+cp $kraken2_report $egressPath
